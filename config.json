@@ -53,9 +53,7 @@
     "ttf-jetbrains-mono",
     "unrar",
     "unzip",
-    "zed",
-    "zig",
-    "zls"
+    "zed"
   ],
   "parallel_downloads": 5,
   "services": ["bluetooth", "firewalld", "power-profiles-daemon", "sddm"],
