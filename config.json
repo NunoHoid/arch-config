@@ -1,4 +1,7 @@
 {
+  "audio_config": {
+    "audio": "No audio server"
+  },
   "bootloader": "Systemd-boot",
   "hostname": "archlinux",
   "locale_config": {
