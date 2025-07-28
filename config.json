@@ -1,9 +1,4 @@
 {
-  "audio_config": {
-    "audio": "No audio server"
-  },
-  "bootloader": "Systemd-boot",
-  "hostname": "archlinux",
   "locale_config": {
     "kb_layout": "pt-latin1",
     "sys_enc": "UTF-8",
@@ -11,6 +6,9 @@
   },
   "mirror_config": {
     "optional_repositories": ["multilib"]
+  },
+  "network_config": {
+    "type": "nm"
   },
   "packages": [
     "amd-ucode",
@@ -60,11 +58,7 @@
     "zed"
   ],
   "parallel_downloads": 5,
-  "profile_config": {
-    "profile": {
-      "main": "Minimal"
-    }
-  },
   "services": ["bluetooth", "firewalld", "power-profiles-daemon", "sddm"],
-  "swap": false
+  "swap": false,
+  "timezone": "Europe/Lisbon"
 }
