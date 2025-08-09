@@ -26,8 +26,8 @@
     "konsole",
     "krita",
     "kwalletmanager",
-    "less",
     "libreoffice-fresh",
+    "man-db",
     "nano",
     "noto-fonts",
     "noto-fonts-cjk",
@@ -41,7 +41,6 @@
     "pipewire-jack",
     "pipewire-pulse",
     "plasma-meta",
-    "power-profiles-daemon",
     "pyright",
     "qbittorrent",
     "reflector",
@@ -53,12 +52,10 @@
     "unrar",
     "unzip",
     "vulkan-radeon",
-    "zed",
-    "zig",
-    "zls"
+    "zed"
   ],
   "parallel_downloads": 5,
-  "services": ["bluetooth", "firewalld", "power-profiles-daemon", "sddm"],
+  "services": ["bluetooth", "firewalld", "sddm"],
   "swap": false,
   "timezone": "Europe/Lisbon"
 }
